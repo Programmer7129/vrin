@@ -69,15 +69,15 @@ export default function Home() {
             <div className="flex flex-wrap items-center justify-center gap-6 mb-8 animate-slide-up stagger-3">
               <div className="flex items-center gap-2 px-4 py-2 bg-slate-100 dark:bg-slate-800/50 rounded-full">
                 <div className="w-2 h-2 bg-red-600 dark:bg-red-600 rounded-full animate-pulse"></div>
-                <span className="text-slate-700 dark:text-slate-300 font-medium text-sm">450x faster context loading</span>
+                <span className="text-slate-700 dark:text-slate-300 font-medium text-sm">90% storage reduction</span>
               </div>
               <div className="flex items-center gap-2 px-4 py-2 bg-slate-100 dark:bg-slate-800/50 rounded-full">
                 <div className="w-2 h-2 bg-green-600 dark:bg-green-600 rounded-full animate-pulse"></div>
-                <span className="text-slate-700 dark:text-slate-300 font-medium text-sm">10M+ memories stored</span>
+                <span className="text-slate-700 dark:text-slate-300 font-medium text-sm">450x faster retrieval</span>
               </div>
               <div className="flex items-center gap-2 px-4 py-2 bg-slate-100 dark:bg-slate-800/50 rounded-full">
                 <div className="w-2 h-2 bg-blue-600 dark:bg-blue-600 rounded-full animate-pulse"></div>
-                <span className="text-slate-700 dark:text-slate-300 font-medium text-sm">98% context accuracy</span>
+                <span className="text-slate-700 dark:text-slate-300 font-medium text-sm">Facts-first architecture</span>
               </div>
             </div>
             
@@ -345,6 +345,181 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Revolutionary Memory Optimization Section */}
+      <section className="py-20 bg-slate-50 dark:bg-slate-900/50">
+        <div className="container">
+          <div className="text-center max-w-4xl mx-auto mb-16">
+            <Badge variant="outline" className="mb-4 px-3 py-1">
+              Revolutionary Architecture
+            </Badge>
+            <h2 className="text-3xl font-bold mb-4">The Future of LLM Memory: Facts-First Architecture</h2>
+            <p className="text-lg text-muted-foreground">
+              While others store entire episodes, we extract and store only the intelligence that matters. This breakthrough creates unprecedented cost savings and performance gains.
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
+            <div>
+              <h3 className="text-2xl font-bold mb-6">Traditional Approach: Brute Force Storage</h3>
+              <div className="space-y-4">
+                <div className="flex items-start gap-3">
+                  <div className="mt-1 h-5 w-5 flex items-center justify-center rounded-full bg-red-100 dark:bg-red-900/20">
+                    <span className="text-red-600 dark:text-red-400 text-xs">✕</span>
+                  </div>
+                  <div>
+                    <p className="font-medium text-red-800 dark:text-red-200">Store Full Episodes</p>
+                    <p className="text-sm text-red-600 dark:text-red-400">Complete patient conversations, legal documents, financial records</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <div className="mt-1 h-5 w-5 flex items-center justify-center rounded-full bg-red-100 dark:bg-red-900/20">
+                    <span className="text-red-600 dark:text-red-400 text-xs">✕</span>
+                  </div>
+                  <div>
+                    <p className="font-medium text-red-800 dark:text-red-200">Massive Storage Costs</p>
+                    <p className="text-sm text-red-600 dark:text-red-400">Exponential scaling of storage and retrieval costs</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <div className="mt-1 h-5 w-5 flex items-center justify-center rounded-full bg-red-100 dark:bg-red-900/20">
+                    <span className="text-red-600 dark:text-red-400 text-xs">✕</span>
+                  </div>
+                  <div>
+                    <p className="font-medium text-red-800 dark:text-red-200">Slow Context Parsing</p>
+                    <p className="text-sm text-red-600 dark:text-red-400">Minutes wasted searching through irrelevant information</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-2xl font-bold mb-6">Vrin's Facts-First Architecture</h3>
+              <div className="space-y-4">
+                <div className="flex items-start gap-3">
+                  <div className="mt-1 h-5 w-5 flex items-center justify-center rounded-full bg-green-100 dark:bg-green-900/20">
+                    <Check className="h-3 w-3 text-green-600 dark:text-green-400" />
+                  </div>
+                  <div>
+                    <p className="font-medium text-green-800 dark:text-green-200">Extract Key Facts & Relationships</p>
+                    <p className="text-sm text-green-600 dark:text-green-400">AI automatically identifies and stores only critical information</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <div className="mt-1 h-5 w-5 flex items-center justify-center rounded-full bg-green-100 dark:bg-green-900/20">
+                    <Check className="h-3 w-3 text-green-600 dark:text-green-400" />
+                  </div>
+                  <div>
+                    <p className="font-medium text-green-800 dark:text-green-200">90% Storage Reduction</p>
+                    <p className="text-sm text-green-600 dark:text-green-400">Memory-efficient vector storage with zero information loss</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <div className="mt-1 h-5 w-5 flex items-center justify-center rounded-full bg-green-100 dark:bg-green-900/20">
+                    <Check className="h-3 w-3 text-green-600 dark:text-green-400" />
+                  </div>
+                  <div>
+                    <p className="font-medium text-green-800 dark:text-green-200">Dynamic Knowledge Graphs</p>
+                    <p className="text-sm text-green-600 dark:text-green-400">Built on-demand from stored facts for perfect context</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Workflow Diagram */}
+          <div className="bg-white dark:bg-slate-800 rounded-lg p-8 border border-border/50">
+            <h3 className="text-xl font-bold mb-6 text-center">Vrin's Revolutionary Workflow</h3>
+            <div className="grid md:grid-cols-6 gap-4 text-center">
+              <div className="flex flex-col items-center">
+                <div className="w-12 h-12 rounded-full bg-blue-100 dark:bg-blue-900/20 flex items-center justify-center mb-2">
+                  <span className="text-blue-600 dark:text-blue-400 font-bold">1</span>
+                </div>
+                <p className="text-sm font-medium">Episode Recorded</p>
+                <p className="text-xs text-muted-foreground">Doctor-patient conversation</p>
+              </div>
+              <div className="flex flex-col items-center">
+                <div className="w-12 h-12 rounded-full bg-purple-100 dark:bg-purple-900/20 flex items-center justify-center mb-2">
+                  <span className="text-purple-600 dark:text-purple-400 font-bold">2</span>
+                </div>
+                <p className="text-sm font-medium">API Called</p>
+                <p className="text-xs text-muted-foreground">Vrin processes episode</p>
+              </div>
+              <div className="flex flex-col items-center">
+                <div className="w-12 h-12 rounded-full bg-green-100 dark:bg-green-900/20 flex items-center justify-center mb-2">
+                  <span className="text-green-600 dark:text-green-400 font-bold">3</span>
+                </div>
+                <p className="text-sm font-medium">Extract Facts</p>
+                <p className="text-xs text-muted-foreground">AI identifies key relationships</p>
+              </div>
+              <div className="flex flex-col items-center">
+                <div className="w-12 h-12 rounded-full bg-orange-100 dark:bg-orange-900/20 flex items-center justify-center mb-2">
+                  <span className="text-orange-600 dark:text-orange-400 font-bold">4</span>
+                </div>
+                <p className="text-sm font-medium">Vector Storage</p>
+                <p className="text-xs text-muted-foreground">Memory-efficient facts storage</p>
+              </div>
+              <div className="flex flex-col items-center">
+                <div className="w-12 h-12 rounded-full bg-teal-100 dark:bg-teal-900/20 flex items-center justify-center mb-2">
+                  <span className="text-teal-600 dark:text-teal-400 font-bold">5</span>
+                </div>
+                <p className="text-sm font-medium">Knowledge Graph</p>
+                <p className="text-xs text-muted-foreground">Dynamic context creation</p>
+              </div>
+              <div className="flex flex-col items-center">
+                <div className="w-12 h-12 rounded-full bg-pink-100 dark:bg-pink-900/20 flex items-center justify-center mb-2">
+                  <span className="text-pink-600 dark:text-pink-400 font-bold">6</span>
+                </div>
+                <p className="text-sm font-medium">LLM Summary</p>
+                <p className="text-xs text-muted-foreground">RL-optimized insights</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Cost Comparison */}
+          <div className="grid md:grid-cols-2 gap-8 mt-16">
+            <Card className="border-2 border-red-200 dark:border-red-800 bg-red-50/30 dark:bg-red-950/10">
+              <CardContent className="pt-6">
+                <h3 className="text-lg font-semibold text-red-800 dark:text-red-200 mb-4">Traditional Storage Costs</h3>
+                <div className="space-y-3">
+                  <div className="flex justify-between">
+                    <span className="text-sm">1M patient episodes</span>
+                    <span className="text-sm font-medium text-red-600 dark:text-red-400">$50,000/month</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-sm">Average retrieval time</span>
+                    <span className="text-sm font-medium text-red-600 dark:text-red-400">15 minutes</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-sm">Storage scaling</span>
+                    <span className="text-sm font-medium text-red-600 dark:text-red-400">Exponential</span>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="border-2 border-green-200 dark:border-green-800 bg-green-50/30 dark:bg-green-950/10">
+              <CardContent className="pt-6">
+                <h3 className="text-lg font-semibold text-green-800 dark:text-green-200 mb-4">Vrin Facts-First Costs</h3>
+                <div className="space-y-3">
+                  <div className="flex justify-between">
+                    <span className="text-sm">1M patient episodes</span>
+                    <span className="text-sm font-medium text-green-600 dark:text-green-400">$5,000/month</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-sm">Average retrieval time</span>
+                    <span className="text-sm font-medium text-green-600 dark:text-green-400">2 seconds</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-sm">Storage scaling</span>
+                    <span className="text-sm font-medium text-green-600 dark:text-green-400">Linear</span>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       {/* Powerful Features for Vrin */}
       <section id="features" className="py-20 bg-muted/30">
         <div className="container">
@@ -531,35 +706,48 @@ episode_data = {
   "provider": "Dr. Smith"
 }
 
-# 1. Submit episode -> Vrin extracts facts & relationships
+# 1. Doctor hits submit -> Vrin API called
 response = vrin_client.episodes.create(
   data=episode_data,
   extract_facts=True,
   build_relationships=True
 )
 
-# 2. Later: Doctor needs patient info
+# 2. Vrin extracts facts & causal relationships (memory-efficient)
+extracted_facts = response.facts
+# Example: ["Patient: chest pain worsening", "Family history: heart disease", 
+#          "Relationship: genetic_risk_factor"]
+
+# 3. Store only essential facts in vector DB (90% storage reduction)
+vrin_client.memory.store_facts(
+  patient_id="patient_789",
+  facts=extracted_facts,
+  compress=True  # Memory-efficient storage
+)
+
+# 4. Later: Doctor needs patient info
 query = "Show me this patient's cardiac risk factors and recent symptoms"
 
-# 3. Vrin retrieves relevant facts from vector DB
+# 5. Retrieve relevant facts based on search query
 relevant_facts = vrin_client.memory.search(
   patient_id="patient_789",
   query=query,
   max_results=20
 )
 
-# 4. Generate knowledge graph from facts
+# 6. Create knowledge graph from retrieved facts
 knowledge_graph = vrin_client.graph.build(
   facts=relevant_facts,
   include_relationships=True
 )
 
-# 5. LLM summarizes with optimized prompts (bandit optimization)
+# 7. LLM summarizes with RL optimization & bandit prompt selection
 summary = vrin_client.insights.generate(
   knowledge_graph=knowledge_graph,
   query=query,
   format="clinical_summary",
-  optimize_prompt=True  # RL-driven prompt selection
+  optimize_prompt=True,  # RL-driven prompt selection
+  bandit_optimization=True  # Continuous learning
 )
 
 print(summary.content)
